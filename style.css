@@ -151,13 +151,19 @@ header a{
 .moon,.arrow{
     background-color: rgb(85, 10, 85);
     width: 3rem;
+    cursor: pointer;
 }
 .moonArrow{
     position: fixed;
     bottom:0;
     right: 0;
-    z-index:6;
+    z-index: 10;
 }
+.dark-mode{
+    background-color: #333232 !important;
+    color: white !important;
+}
+
 
 
 
